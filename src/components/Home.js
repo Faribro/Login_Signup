@@ -22,7 +22,7 @@ const Home = () => {
       <div className="p-4 box mt-3 text-center">
         Hello, Welcome <br />
         {user && user.email } <br />
-          to CRUD
+          to CRUD Application
       </div>
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleLogout}>
