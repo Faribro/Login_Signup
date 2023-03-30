@@ -15,12 +15,14 @@ const Home = () => {
       console.log(error.message);
     }
   };
+  
+  
   return (
     <>
       <div className="p-4 box mt-3 text-center">
-        Hello Welcome <br />
-        {user && user.email}
-        to Tract Cybernetics
+        Hello, Welcome <br />
+        {user && user.email } <br />
+          to Tract Cybernetics
       </div>
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleLogout}>
@@ -28,8 +30,8 @@ const Home = () => {
         </Button>
       </div>
        <div>
-      <Link to="https://leaflet-self.vercel.app/">
-        <button>Take Me To The Maps</button>
+      <Link to="https://g7uw79-3000.csb.app/employee/create">
+        <button>Let's CRUD</button>
       </Link>
     </div>
     </>

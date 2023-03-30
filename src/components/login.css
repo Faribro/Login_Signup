@@ -1,0 +1,21 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  background-color: #555;
+  background-image:
+  url("https://github.com/dabrorius/codepen-assets/raw/master/flights-map/bg.png");
+}
+
+.land {
+  fill: #222;
+  stroke-width: 1px;
+  stroke: #333;
+}
+
+#map {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
